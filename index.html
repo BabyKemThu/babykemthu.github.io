@@ -14,10 +14,11 @@
     }
 
     header {
-      background: linear-gradient(135deg, #60a5fa, #f9a8d4);
+      background: #ffffff;
       padding: 50px 20px;
       text-align: center;
       position: relative;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
     }
 
     .logo {
@@ -25,23 +26,31 @@
       position: absolute;
       left: 20px;
       top: 20px;
+      border-radius: 8px;
     }
 
     .avatar {
       width: 120px;
       height: 120px;
       border-radius: 50%;
-      border: 4px solid white;
-      margin-top: 10px;
+      border: 5px solid #6366f1;
+      padding: 3px;
+      background: white;
       transition: 0.3s;
     }
 
     .avatar:hover {
       transform: scale(1.1);
+      border-color: #ec4899;
     }
 
     h1 {
       margin: 10px 0;
+      color: #1e293b;
+    }
+
+    header p {
+      color: #64748b;
     }
 
     nav {
@@ -107,6 +116,16 @@
       background: #ec4899;
     }
 
+    a {
+      color: #6366f1;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ec4899;
+      text-decoration: underline;
+    }
+
     footer {
       text-align: center;
       padding: 20px;
@@ -119,14 +138,11 @@
 <body>
 
 <header>
-  <!-- logo trường -->
   <img src="logo.png" class="logo">
-
-  <!-- avatar -->
   <img src="avatar.jpg" class="avatar">
 
   <h1>Xin chào, mình là Anh Thư 👋</h1>
-  <p>Sinh viên IT năm 4</p>
+  <p>Sinh viên IT | AI Engineer tương lai</p>
 
   <br>
   <a href="cv.pdf" class="btn">📄 Tải CV</a>
@@ -164,7 +180,12 @@
 <section id="contact">
   <h2>Liên hệ</h2>
   <div class="card">
-    <p>Email: atkuuu54l@gmail.com</p>
+    <p>Email: atkuuu54@gmail.com</p>
+    <p>Trường: 
+      <a href="https://ictu.edu.vn/" target="_blank">
+        Đại học CNTT & Truyền thông (ICTU)
+      </a>
+    </p>
   </div>
 </section>
 

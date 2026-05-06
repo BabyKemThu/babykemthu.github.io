@@ -8,13 +8,13 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
+      background: #f8fafc;
+      color: #1e293b;
       scroll-behavior: smooth;
     }
 
     header {
-      background: linear-gradient(135deg, #6366f1, #ec4899);
+      background: linear-gradient(135deg, #60a5fa, #f9a8d4);
       padding: 50px 20px;
       text-align: center;
       position: relative;
@@ -45,21 +45,22 @@
     }
 
     nav {
-      background: #1e293b;
+      background: #ffffff;
       padding: 12px;
       text-align: center;
       position: sticky;
       top: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
 
     nav a {
-      color: #cbd5f5;
+      color: #334155;
       margin: 0 15px;
       text-decoration: none;
     }
 
     nav a:hover {
-      color: white;
+      color: #6366f1;
     }
 
     section {
@@ -75,20 +76,21 @@
     }
 
     h2 {
-      color: #818cf8;
+      color: #6366f1;
     }
 
     .card {
-      background: #1e293b;
+      background: #ffffff;
       padding: 20px;
       margin: 15px 0;
       border-radius: 12px;
       transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     }
 
     .card:hover {
       transform: translateY(-5px);
-      background: #334155;
+      background: #f1f5f9;
     }
 
     .btn {
@@ -108,8 +110,8 @@
     footer {
       text-align: center;
       padding: 20px;
-      background: #020617;
-      color: #94a3b8;
+      background: #e2e8f0;
+      color: #475569;
     }
   </style>
 </head>
@@ -120,15 +122,14 @@
   <!-- logo trường -->
   <img src="logo.png" class="logo">
 
-  <!-- avatar của em -->
+  <!-- avatar -->
   <img src="avatar.jpg" class="avatar">
 
   <h1>Xin chào, mình là Anh Thư 👋</h1>
   <p>Sinh viên IT năm 4</p>
 
-  <!-- nút CV -->
   <br>
-  <a href="#" class="btn">📄 Tải CV</a>
+  <a href="cv.pdf" class="btn">📄 Tải CV</a>
 </header>
 
 <nav>
@@ -141,12 +142,13 @@
 <section id="about">
   <h2>Giới thiệu</h2>
   <div class="card">
-    <p>Mình đang học AI, Machine Learning và phát triển web.</p>
+    <p>Mình là sinh viên CNTT, đang học AI, Machine Learning và phát triển web.</p>
   </div>
 </section>
 
 <section id="projects">
   <h2>Dự án</h2>
+
   <div class="card">
     <h3>🔹 Nhận diện mũ bảo hộ</h3>
     <p>Sử dụng YOLOv8 để phát hiện vi phạm an toàn.</p>
@@ -156,12 +158,13 @@
     <h3>🔹 Text-to-Speech</h3>
     <p>Hệ thống đọc truyện tiếng Việt cho trẻ em.</p>
   </div>
+
 </section>
 
 <section id="contact">
   <h2>Liên hệ</h2>
   <div class="card">
-    <p>Email: atkuuu54@gmail.com</p>
+    <p>Email: atkuuu54l@gmail.com</p>
   </div>
 </section>
 

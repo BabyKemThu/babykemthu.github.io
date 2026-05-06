@@ -27,6 +27,11 @@
       left: 20px;
       top: 20px;
       border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .logo:hover {
+      transform: scale(1.05);
     }
 
     .avatar {
@@ -138,11 +143,15 @@
 <body>
 
 <header>
-  <img src="logo.png" class="logo">
+  <!-- 🔗 Logo click sang ICTU -->
+  <a href="https://ictu.edu.vn/" target="_blank">
+    <img src="logo.png" class="logo">
+  </a>
+
   <img src="avatar.jpg" class="avatar">
 
   <h1>Xin chào, mình là Anh Thư 👋</h1>
-  <p>Sinh viên IT năm 4</p>
+  <p>Sinh viên IT </p>
 
   <br>
   <a href="cv.pdf" class="btn">📄 Tải CV</a>
